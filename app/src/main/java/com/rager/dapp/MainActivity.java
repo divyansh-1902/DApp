@@ -23,12 +23,14 @@ public class MainActivity extends AppCompatActivity {
         redButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             layout.setBackgroundColor(Color.RED);
+
+                layout.setBackgroundColor(Color.RED);
             }
         });
         greenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 layout.setBackgroundColor(Color.GREEN);
             }
         });

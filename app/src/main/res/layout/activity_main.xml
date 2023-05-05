@@ -11,21 +11,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/my_first_app"
-        android:contentDescription="abc"/>
+        android:contentDescription="@string/abc"/>
 
     <Button
         android:id="@+id/redbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/red" />
+        android:text="@string/red"
+        android:contentDescription="@string/desc_red"/>
 
     <Button
         android:id="@+id/greenbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/green" />
+        android:text="@string/green"
+        android:contentDescription="@string/desc_green"/>
 
 
 </LinearLayout>

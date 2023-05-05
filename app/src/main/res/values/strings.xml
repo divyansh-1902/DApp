@@ -4,4 +4,7 @@
     <string name="red">RED</string>
     <string name="green">GREEN</string>
     <string name="my_first_app">My first App</string>
+    <string name="abc">abc</string>
+    <string name="desc_green">This button will change background to green</string>
+    <string name="desc_red">This button will change background to red</string>
 </resources>
